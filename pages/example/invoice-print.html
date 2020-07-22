@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Invoice</title>
+
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="../../css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../plugin/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <!-- Bootstrap Social  -->
+    <link rel="stylesheet" href="../../plugin/bootstrap-social-gh-pages/bootstrap-social.css">
+    <!-- Icheck -->
+    <link rel="stylesheet" href="../../plugin/icheck-1.x/skins/all.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="../../style.css">
+
+
+</head>
+
+<body onload="window.print();">
+
+    <div class="wrapper p-3">
+        <section class="invoice p-3 border bg-white">
+            <div class="row border-bottom">
+                <div class="col-12">
+                    <h5 class="d-inline-block"><i class="fas fa-globe-americas"></i> AdminLTE, Inc</h5>
+                    <div class="pull-right">
+                        <span class="fontsize-14 text-muted">Date: 2/10/2019</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p class="fontsize-14">
+                        From <br>
+                        <b>Admin, Inc.</b> <br>
+                        51 Kampung Gemuroh,Tepoh <br>
+                        21060 Kuala Terengganu <br>
+                        Phone:(011) 1110-9558 <br>
+                        Email: alifsuria98@gmail.com
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p class="fontsize-14">
+                        To <br>
+                        <b>John Doe</b> <br>
+                        765 Folsom Ave, Suite 600 <br>
+                        San Fransisco,CA 94170 <br>
+                        Phone: (555) 539-1037 <br>
+                        Email: john.doe@example.com
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p class="fontsize-14">
+                        <b>Invoice #007612</b>
+                        <br><br>
+                        <b>Order ID:</b> 4F3S8J <br>
+                        <b>Payment Due:</b> 2/22/2019 <br>
+                        <b>Account:</b> 968-34567
+                    </p>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="fontsize-14">QTY</th>
+                            <th class="fontsize-14">Product</th>
+                            <th class="fontsize-14">Serial #</th>
+                            <th class="fontsize-14">Description</th>
+                            <th class="fontsize-14">Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Call of Duty</td>
+                            <td>455-981-221</td>
+                            <td>El snort testosterone trophy driving gloves handsome</td>
+                            <td>$64.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Need For Speed IV</td>
+                            <td>247-132-872</td>
+                            <td>Wes Anderson umami biodiesel</td>
+                            <td>$50.00</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Devil May Cry 4 Special Edition</td>
+                            <td>882-110-452</td>
+                            <td>The Expansion Pack included</td>
+                            <td>$90.00</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Devil May Cry 5</td>
+                            <td>009-765-237</td>
+                            <td>The Expansion Pack included</td>
+                            <td>$80.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h5>Payment Methods:</h5>
+                    <img src="../../img/credit/visa.png" alt="">
+                    <img src="../../img/credit/mastercard.png" alt="">
+                    <img src="../../img/credit/american-express.png" alt="">
+                    <img src="../../img/credit/paypal2.png" alt="">
+                    <p class="fontsize-14 text-muted my-3 p-2 border rounded" style="background: #F5F5F5">Etsy
+                        doostang zoodles disqus groupon greplin oooj voxy
+                        zoodles, weebly ning heekya handango imeem plugg dopplr jibjab, movity jajah
+                        plickers sifteo edmodo ifttt zimbra.</p>
+                </div>
+                <div class="col-6">
+                    <h5>Amount Due 2/22/2019</h5>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th class="w-50">Subtotal:</th>
+                                <td>$284.50</td>
+                            </tr>
+                            <tr>
+                                <th class="w-50">Tax(9.3%):</th>
+                                <td>$26.45</td>
+                            </tr>
+                            <tr>
+                                <th class="w-50">Shipping:</th>
+                                <td>$5.80</td>
+                            </tr>
+                            <tr>
+                                <th class="w-50">Total:</th>
+                                <td>$316.75</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="box-footer d-print-none">
+                <a href="invoice_print.html" target="_blank" class="btn btn-default fontsize-14"><i class="fa fa-print"
+                        aria-hidden="true"></i> Print</a>
+                <div class="pull-right">
+                    <button type="button" class="btn btn-primary  fontsize-14"><i class="fas fa-download"></i> Generate
+                        PDF</button>
+                    <button type="button" class="btn btn-success  fontsize-14"><i class="fa fa-credit-card"
+                            aria-hidden="true"></i>
+                        Submit Payment</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Jquery 3.3.1 -->
+    <script src="../../js/jquery-3.3.1.js"></script>
+    <!-- PopperJS -->
+    <script src="../../js/popper.min.js"></script>
+    <!-- Bootstrap  -->
+    <script src="../../plugin/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <!-- Sidebar Interaction -->
+    <script src="../../sidebar&header.js"></script>
+    <!-- CKEditor -->
+    <script src="../../plugin/ckeditor/ckeditor.js"></script>
+    <!-- Script -->
+</body>
+
+</html>

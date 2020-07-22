@@ -1,0 +1,2558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard 2</title>
+    <!-- ChartJS -->
+    <script src="js/Chart.bundle.min.js"></script>
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugin/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <!-- JVectorJS -->
+    <link rel="stylesheet" href="css/jquery-jvectormap-2.0.3.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="page-wrap">
+        <!-- Header -->
+        <header class="main-header">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-text delete"><b>A</b>LT</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-text "><b>Admin</b>LTE</span>
+            </a>
+
+            <nav class="navbar navbar-custom-menu navbar-static-top">
+                <!-- Sidebar toggle button-->
+                <a href="#sidebar" id="sidebar-toggle" aria-expanded="true" data-toggle="collapse" class="">
+                    <span class=""><i class="fas fa-bars"></i></span>
+                </a>
+                <div class="">
+                    <ul class="nav pull-left">
+                        <!-- Messages: style can be found in dropdown.less-->
+                        <!-- Mailbox -->
+                        <li class="nav-item position-relative">
+                            <a href="" class="header-icon " data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <span class="badge badge-success">4</span>
+                                <i class="far fa-envelope"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-left message-menu list-unstyled">
+                                <li class="menu-header">You Have 4 messages</li>
+                                <li class="">
+                                    <ul class="menu list-unstyled clearfix">
+                                        <li>
+                                            <a href="" class="d-block ">
+                                                <div class="pull-left">
+                                                    <img src="img/gambarpelajar1.do.jpg" alt=""
+                                                        class="message-menu-img">
+                                                </div>
+                                                <h6 class="message-menu-h6-text d-flex justify-content-between">Support
+                                                    Team
+                                                    <small><i class="far fa-clock    "></i>5 mins</small>
+                                                </h6>
+                                                <p class="message-menu-p-text">Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="d-block ">
+                                                <div class="pull-left">
+                                                    <img src="img/gambarpelajar1.do.jpg" alt=""
+                                                        class="message-menu-img">
+                                                </div>
+                                                <h6 class="message-menu-h6-text d-flex justify-content-between">Support
+                                                    Team
+                                                    <small><i class="far fa-clock    "></i>5 mins</small>
+                                                </h6>
+                                                <p class="message-menu-p-text">Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="d-block ">
+                                                <div class="pull-left">
+                                                    <img src="img/gambarpelajar1.do.jpg" alt=""
+                                                        class="message-menu-img">
+                                                </div>
+                                                <h6 class="message-menu-h6-text d-flex justify-content-between">Support
+                                                    Team
+                                                    <small><i class="far fa-clock    "></i>5 mins</small>
+                                                </h6>
+                                                <p class="message-menu-p-text">Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="d-block ">
+                                                <div class="pull-left">
+                                                    <img src="img/gambarpelajar1.do.jpg" alt=""
+                                                        class="message-menu-img">
+                                                </div>
+                                                <h6 class="message-menu-h6-text d-flex justify-content-between">Support
+                                                    Team
+                                                    <small><i class="far fa-clock    "></i>5 mins</small>
+                                                </h6>
+                                                <p class="message-menu-p-text">Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="d-block ">
+                                                <div class="pull-left">
+                                                    <img src="img/gambarpelajar1.do.jpg" alt=""
+                                                        class="message-menu-img">
+                                                </div>
+                                                <h6 class="message-menu-h6-text d-flex justify-content-between">Support
+                                                    Team
+                                                    <small><i class="far fa-clock    "></i>5 mins</small>
+                                                </h6>
+                                                <p class="message-menu-p-text">Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-footer">
+                                    <a href="#">See all Message</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Notifications: style can be found in dropdown.less -->
+                        <!-- BEll -->
+                        <li class="nav-item position-relative">
+                            <a href="" class="header-icon " data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <span class="badge badge-warning">10</span>
+                                <i class="far fa-bell"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-left noti-menu list-unstyled">
+                                <li class="menu-header">
+                                    <p class="m-0">You have 10 notifications</p>
+                                </li>
+                                <li>
+                                    <ul class="menu list-unstyled">
+                                        <li class="noti-border"><a href=""><span class="mr-1"><i
+                                                        class="fa fa-users text-primary"></i></span>5 new members join
+                                                today</a></li>
+                                        <li class="noti-border"><a href=""><span class="mr-1"><i
+                                                        class="fa fa-exclamation-triangle text-warning"></i></span>Very
+                                                long
+                                                description here that may not fit into the
+                                                page and may cause design problems
+                                            </a>
+                                        </li>
+                                        <li class="noti-border"><a href=""><span class="mr-1"><i
+                                                        class="fa fa-users text-danger"></i></span>5 new members
+                                                joined</a>
+                                        </li>
+                                        <li class="noti-border"><a href=""><span class="mr-1"><i
+                                                        class="fa fa-shopping-cart text-success"></i></span>25 sales
+                                                made</a></li>
+                                        <li class="noti-border"><a href=""><span class="mr-2"><i
+                                                        class="fas fa-user text-danger"></i></span>You changed your
+                                                username</a></li>
+                                        <li class="noti-border"><a href=""><span class="mr-2"><i
+                                                        class="fa fa-shopping-cart text-success"></i></span>30 sales
+                                                made</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-footer"><a href="">View All</a></li>
+                            </ul>
+                        </li>
+                        <!-- Tasks: style can be found in dropdown.less -->
+                        <li class="nav-item position-relative">
+                            <a href="" class="header-icon " data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <span class="badge badge-danger">9</span>
+                                <i class="far fa-flag"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-left task-menu list-unstyled">
+                                <li class="menu-header">You have 9 tasks</li>
+                                <li>
+                                    <ul class="menu list-unstyled">
+                                        <li>
+                                            <a href="#">
+                                                <span>Design some buttons <small>20%</small></span>
+                                                <div class="progress xs">
+                                                    <div class="progress-bar bg-info" style="width: 20%;"
+                                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>Create a nice theme <small>40%</small></span>
+                                                <div class="progress xs">
+                                                    <div class="progress-bar bg-success" style="width: 40%"
+                                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>Some task i need to do <small>60%</small></span>
+                                                <div class="progress xs">
+                                                    <div class="progress-bar bg-danger" style="width: 60%"
+                                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>Make beautiful transitions <small>80%</small></span>
+                                                <div class="progress xs">
+                                                    <div class="progress-bar bg-warning" style="width: 80%"
+                                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-footer"><a href="">View all tasks</a></li>
+                            </ul>
+                        </li>
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="nav-item position-relative">
+                            <a href="" class="user-tag" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <img src="img/gambarpelajar1.do.jpg" class="img-user-body" alt="">
+                                <span class="">Shahrul Alif</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-left user-tag-menu list-unstyled">
+                                <li class="user-tag-header">
+                                    <img src="img/gambarpelajar1.do.jpg" class="user-tag-menu-img" alt="">
+                                    <p class="m-0">Shahrul Alif - Web Developer</p>
+                                    <small class="">Member since Nov.2012</small>
+                                </li>
+                                <li class="user-tag-body">
+                                    <div class="row w-100 m-0 p-3">
+                                        <div class="col-sm-4 text-center"><a href="">Followers</a></div>
+                                        <div class="col-sm-4 text-center"><a href="">Sales</a></div>
+                                        <div class="col-sm-4 text-center"><a href="">Friends</a></div>
+                                    </div>
+                                </li>
+                                <li class="user-tag-footer">
+                                    <div class="d-flex justify-content-between p-2">
+                                        <button class="btn btn-light border">Profile</button>
+                                        <button class="btn btn-light border">Sign out</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Setting -->
+                        <li class="nav-item position-relative">
+                            <a href="javascript:void(0)" id="setting-toggle" class="header-icon ">
+                                <i class="fas fa-cogs" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!---->
+
+        <div class="wrapper">
+            <!-- Left Sidebar -->
+            <div class="text-white sidebar">
+                    <div class="row no-gutters user-panel">
+                        <div class="col-4">
+                            <img src="img/gambarpelajar1.do.jpg" id="profile-img" alt="">
+                        </div>
+                        <div class="col-8 user-name">
+                            <p class="m-0 mb-1 ">Shahrul Alif</p>
+                            <a href="" class="online-tag">
+                                <i class="fa fa-circle text-success"></i>
+                                Online
+                            </a>
+                        </div>
+                    </div>
+                    <form id="search-form" action="">
+                        <div class="form-group" id="searchbox">
+                            <input type="search" class="form-control searchbox" placeholder="Search..">
+                        </div>
+                    </form>
+                    <div class="side-title">
+                        <p>MAIN NAVIGATION</p>
+                    </div>
+                    <!-- Left sidebar Menu Collapse-->
+                    <div class="tree-view">
+                        <div class="accordion" id="side-menu-collapse">
+                            <ul class="list-unstyled sidebar-menu-group">
+                                <!--Dashboard-->
+                                <li class="tree-collapse">
+                                    <a href="#javascript:void()" id="button-trial" data-toggle="collapse"
+                                        class="menu-trigger active" data-target="#dashboard" aria-expanded="true"
+                                        aria-controls="menu-1">
+                                        <span><i class="fas fa-tachometer-alt pr-2"></i></span>
+                                        <span class="li-text">Dashboard</span>
+                                        <span class="arrow-icon ml-auto mr-3"><i class="fa fa-angle-down "></i></span>
+                                    </a>
+                                    <ul id="dashboard" class="collapse list-unstyled" data-parent="#side-menu-collapse"
+                                        aria-labelledby="Layout">
+                                        <li class="menu-option">
+                                            <a href="pages/html/Dashboard1.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Dashboard v1
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="#" class="option-text active btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Dashboard v2
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Layout -->
+                                <li class="tree-collapse">
+                                    <a href="javascript:void()" class="menu-trigger" data-toggle="collapse"
+                                        data-target="#layout" aria-expanded="true" aria-controls="layout">
+                                        <span class="left-icon"><i class="fas fa-copy"></i></span>
+                                        <span class="li-text">Layout</span>
+                                        <span class="badge badge-primary ml-auto mr-3">4</span>
+                                    </a>
+                                    <ul id="layout" class="collapse list-unstyled" data-parent="#side-menu-collapse"
+                                        aria-labelledby="Dashboard">
+                                        <li class="menu-option">
+                                            <a href="pages/layout/top-nav.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Top Navigation
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/layout/boxed.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Boxed
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/layout/fixed.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Fixed
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/layout/collapse.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Collapsed Sidebar
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Widget -->
+                                <li class="tree-collapse">
+                                    <a href="pages/html/widget.html" class="menu-trigger btn-block btn-link d-flex">
+                                        <span class="pr-2"><i class="fa fa-th"></i></span>
+                                        <span class="li-text">Widget</span>
+                                        <span class="badge badge-success ml-auto mr-3">new</span>
+                                    </a>
+                                </li>
+
+                                <!-- Chart -->
+                                <li class="tree-collapse dashboard">
+                                    <a href="javascript:void()" class="menu-trigger " data-toggle="collapse"
+                                        data-target="#chart" aria-expanded="false" aria-controls="chart">
+                                        <span class="pr-2"><i class="fas fa-chart-pie"></i></span>
+                                        <span class="li-text">Chart</span>
+                                        <span class="arrow-icon ml-auto mr-3"><i class="fa fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="collapse list-unstyled" id="chart" data-parent="#side-menu-collapse"
+                                        aria-labelledby="Chart">
+                                        <li class="menu-option">
+                                            <a href="pages/chart/chartjs.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                ChartJS
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/chart/morrisjs.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Morris
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/chart/flot.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Flot
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/chart/inline chart.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Inline charts
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- UI Elements -->
+                                <li class="tree-collapse">
+                                    <a href="javascript:void()" class="menu-trigger " data-toggle="collapse"
+                                        data-target="#ui-element" aria-expanded="false" aria-controls="ui-element">
+                                        <span class="pr-2"><i class="fa fa-desktop"></i></span>
+                                        <span class="li-text">UI Elements</span>
+                                        <span class="arrow-icon ml-auto mr-3"><i class="fa fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled collapse" id="ui-element" data-parent="#side-menu-collapse"
+                                        aria-labelledby="UI Elements">
+                                        <li class="menu-option"><a href="pages/UI Element/general.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                General
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/UI Element/icon.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Icons
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/UI Element/button.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Buttons
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/UI Element/slider.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Sliders
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/UI Element/timeline.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Timeline
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/UI Element/modal.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Modals
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Forms -->
+                                <li class="tree-collapse">
+                                    <a href="javascript:void()" class="menu-trigger" data-toggle="collapse"
+                                        data-target="#forms" aria-expanded="false" aria-controls="forms">
+                                        <span class="pr-2"><i class="fas fa-edit"></i></span>
+                                        <span class="li-text">Forms</span>
+                                        <span class="arrow-icon ml-auto mr-3"><i class="fa fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled collapse" id="forms" data-parent="#side-menu-collapse"
+                                        aria-labelledby="Forms">
+                                        <li class="menu-option">
+                                            <a href="pages/form/general element.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                General Elements
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/form/advance form element.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Advanced Elements
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/form/editor.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Editors
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Tables -->
+                                <li class="tree-collapse">
+                                    <a href="javascript:void()" class="menu-trigger " data-toggle="collapse"
+                                        data-target="#tables" aria-expanded="false" aria-controls="tables">
+                                        <span class="pr-2"><i class="fa fa-table" aria-hidden="true"></i></span>
+                                        <span class="li-text">Tables</span>
+                                        <span class="arrow-icon ml-auto mr-3"><i class="fa fa-angle-down"></i></span>
+                                    </a>
+
+                                    <ul class=" list-unstyled collapse" id="tables" data-parent="#side-menu-collapse"
+                                        aria-labelledby="Tables">
+                                        <li class="menu-option">
+                                            <a href="pages/table/simple table.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Simple tables
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/table/data-table.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Data tables
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Calendar -->
+                                <li class="tree-collapse">
+                                    <a href="pages/html/calendar.html" class="menu-trigger btn-block btn-link d-flex">
+                                        <span class="pr-2"><i class="fa fa-calendar"></i></span>
+                                        <span class="li-text">Calendar</span>
+                                        <span class="badge badge-primary ml-auto mr-1">17</span>
+                                        <span class="badge badge-danger mr-3">3</span>
+                                    </a>
+                                </li>
+
+                                <!-- Mailbox -->
+                                <li class="tree-collapse">
+                                    <a href="pages/mailbox/mailbox.html" class="menu-trigger btn-block btn-link d-flex">
+                                        <span class="pr-2"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                        <span class="li-text">Mailbox</span>
+                                        <span class="badge badge-danger ml-auto">5</span>
+                                        <span class="badge badge-success mx-1">16</span>
+                                        <span class="badge badge-warning mr-3">12</span>
+                                    </a>
+                                </li>
+
+                                <!-- Examples -->
+                                <li class="tree-collapse">
+                                    <a href="javascript:void()" class="menu-trigger " data-toggle="collapse"
+                                        data-target="#example" aria-expanded="false" aria-controls="example">
+                                        <span class="pr-2"><i class="fa fa-folder"></i></span>
+                                        <span class="li-text">Examples</span>
+                                        <span class="arrow-icon ml-auto mr-3"><i class="fa fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled collapse" id="example" data-parent="#side-menu-collapse"
+                                        aria-labelledby="Example">
+                                        <li class="menu-option">
+                                            <a href="pages/example/invoice.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Invoice
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/example/profile.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Profile
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/example/login.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Login
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/example/register.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Register
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/example/lockscreen.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Lockscreen
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/example/404 error.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                404 Error
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/example/500 error.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                500 Error
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/example/blank page.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Blank Page
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="pages/example/pace.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Pace Page
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Multilevel -->
+                                <li class="tree-collapse">
+                                    <a href="Javascript:void()" class="menu-trigger" data-toggle="collapse"
+                                        data-target="#multilevel" aria-expanded="false" aria-controls="multilevel">
+                                        <span class="pr-2"><i class="fa fa-share"></i></span>
+                                        <span class="li-text">Multilevel</span>
+                                        <span class="arrow-icon ml-auto mr-3"><i class="fa fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled collapse" id="multilevel" data-parent="#side-menu-collapse"
+                                        aria-labelledby="multilevel">
+                                        <li class="menu-option">
+                                            <a href="#" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Level One
+                                            </a>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="#" class="option-text btn-block btn-link d-flex"
+                                                data-toggle="collapse" data-target="#option-level2"
+                                                aria-expanded="false" aria-controls="option-level2">
+                                                <span class="mr-1"><i class="far fa-circle"></i></span>
+                                                Level One
+                                                <span class="arrow-icon ml-auto mr-3"><i
+                                                        class="fa fa-angle-down"></i></span>
+                                            </a>
+
+                                            <ul class="collapse list-unstyled" id="option-level2"
+                                                data-parent="#multilevel" aria-labelledby="Level 2">
+                                                <li class="menu-option">
+                                                    <a href="#" class="option-text btn-block btn-link">
+                                                        <span class=""><i class="far fa-circle"></i></span>
+                                                        Level Two
+                                                    </a>
+                                                </li>
+                                                <li class="menu-option">
+                                                    <a href="#" class="option-text btn-block btn-link d-flex"
+                                                        data-toggle="collapse" data-target="#option-level3"
+                                                        aria-expanded="false" aria-controls="opion-level3">
+                                                        <span class="mr-1"><i class="far fa-circle"></i></span>
+                                                        Level Two
+                                                        <span class="arrow-icon ml-auto mr-3"><i
+                                                                class="fa fa-angle-down"></i></span>
+                                                    </a>
+
+                                                    <ul class=" collapse list-unstyled" id="option-level3"
+                                                        data-parent="#option-level2" aria-labelledby="Level 3">
+                                                        <li class="menu-option">
+                                                            <a href="#" class="option-text btn-block btn-link">
+                                                                <span class=""><i class="far fa-circle"></i></span>
+                                                                Level Three
+                                                            </a>
+                                                        </li>
+                                                        <li class="menu-option">
+                                                            <a href="#" class="option-text btn-block btn-link">
+                                                                <span class=""><i class="far fa-circle"></i></span>
+                                                                Level Three
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-option">
+                                            <a href="#" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Level One
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Documentation -->
+                                <li class="tree-collapse">
+                                    <a href="https://adminlte.io/docs" class="menu-trigger btn-block btn-link">
+                                        <span class="pr-2"><i class="fa fa-book"></i></span>
+                                        <span class="li-text">Documentation</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="side-title">
+                            <p>LABELS</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <!-- Important -->
+                            <li class="tree-collapse">
+                                <a href="#" class="menu-trigger btn-block btn-link">
+                                    <span class="pr-2"><i class="far fa-circle text-danger"></i></span>
+                                    <span class="li-text">Important</span>
+                                </a>
+                            </li>
+                            <!-- Warning -->
+                            <li class="tree-collapse">
+                                <a href="#" class="menu-trigger btn-block btn-link">
+                                    <span class="pr-2"><i class="far fa-circle text-warning"></i></span>
+                                    <span class="li-text">Warning</span>
+                                </a>
+                            </li>
+                            <!-- Information -->
+                            <li class="tree-collapse">
+                                <a href="#" class="menu-trigger btn-block btn-link">
+                                    <span class="pr-2"><i class="far fa-circle text-primary"></i></span>
+                                    <span class="li-text">Information</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!---->
+
+                    <!-- Left sidebar Menu Dropdown-->
+                    <div class="tree-view delete">
+                        <div class="accordion" id="side-menu-dropdown">
+                            <ul class="list-unstyled sidebar-menu-group">
+                                <!--Dashboard-->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="#javascript:void()" class="menu-trigger active" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span><i class="fas fa-tachometer-alt pr-2"></i></span>
+                                    </a>
+                                    <ul class=" dropdown-menu m-0 list-unstyled ">
+                                        <h4 class="dropdown-header">Dashboard</h4>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/html/Dashboard1.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Dashboard v1
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="#" class="option-text active btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Dashboard v2
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Layout -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void()" class="menu-trigger" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span class="left-icon"><i class="fas fa-copy"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled m-0 dropdown-menu">
+                                        <h4 class="dropdown-header">Layout</h4>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/layout/top-nav.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Top Navigation
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/layout/boxed.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Boxed
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/layout/fixed.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Fixed
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/layout/collapse.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Collapsed Sidebar
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Widget -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void(0)" class="menu-trigger" data-toggle="dropdown"
+                                        aria-expanded="false" aria-haspopup="true">
+                                        <span class="pr-2"><i class="fa fa-th"></i></span>
+                                    </a>
+                                    <ul class="dropdown-menu list-unstyled m-0">
+                                        <li class="p-0 menu-option">
+                                            <h4 class="m-0"><a href="pages/html/widget.html" class="dropdown-header">Widget</a></h4>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Chart -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void()" class="menu-trigger " aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span class="pr-2"><i class="fas fa-chart-pie"></i></span>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 list-unstyled">
+                                        <h4 class="dropdown-header">Chart</h4>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/chart/chartjs.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                ChartJS
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/chart/morrisjs.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Morris
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/chart/flot.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Flot
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/chart/inline chart.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Inline charts
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- UI Elements -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void()" class="menu-trigger " aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span class="pr-2"><i class="fa fa-desktop"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled m-0 dropdown-menu">
+                                        <h4 class="dropdown-header">UI Elements</h4>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/UI Element/general.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                General
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/UI Element/icon.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Icons
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/UI Element/button.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Buttons
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/UI Element/slider.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Sliders
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/UI Element/timeline.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Timeline
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/UI Element/modal.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Modals
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Forms -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void()" class="menu-trigger" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span class="pr-2"><i class="fas fa-edit"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled m-0 dropdown-menu">
+                                        <h4 class="dropdown-header">Forms</h4>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/form/general element.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                General Elements
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/form/advance form element.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Advanced Elements
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/form/editor.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Editors
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Tables -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void()" class="menu-trigger" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span class="pr-2"><i class="fa fa-table" aria-hidden="true"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled m-0 dropdown-menu">
+                                        <h4 class="dropdown-header">Tables</h4>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/table/simple table.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Simple tables
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/table/data-table.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Data tables
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Calendar -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void()" class="menu-trigger" data-toggle="dropdown"
+                                        aria-expanded="false" aria-haspopup="true">
+                                        <span class="pr-2"><i class="fa fa-calendar"></i></span>
+                                    </a>
+                                    <ul class="dropdown-menu list-unstyled m-0">
+                                        <li class="p-0 menu-option">
+                                            <h4 class="m-0"><a href="pages/html/calendar.html" class="dropdown-header">Calendar</a></h4>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Mailbox -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void()" class="menu-trigger" data-toggle="dropdown"
+                                        aria-expanded="false" aria-haspopup="true">
+                                        <span class="pr-2"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                    </a>
+                                    <ul class="dropdown-menu list-unstyled m-0">
+                                        <li class="p-0 menu-option">
+                                            <h4 class="m-0"><a href="pages/mailbox/mailbox.html" class="dropdown-header">Mailbox</a></h4>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Examples -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void()" class="menu-trigger " aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span class="pr-2"><i class="fa fa-folder"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled m-0 dropdown-menu">
+                                        <h4 class="dropdown-header">Examples</h4>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/example/invoice.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Invoice
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/example/profile.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Profile
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/example/login.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Login
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/example/register.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Register
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/example/lockscreen.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Lockscreen
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/example/404 error.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                404 Error
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/example/500 error.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                500 Error
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/example/blank page.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Blank Page
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="pages/example/pace.html" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Pace Page
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Multilevel -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="Javascript:void()" class="menu-trigger" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span class="pr-2"><i class="fa fa-share"></i></span>
+                                    </a>
+                                    <ul class="list-unstyled m-0 dropdown-menu">
+                                        <h4 class="dropdown-header">Multilevel</h4>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="#" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Level One
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu dropdown-item menu-option" id="multilevel-dropdown">
+                                            <a href="#" class="option-text btn-block btn-link d-flex"
+                                                data-toggle="collapse" data-target="#level2" aria-controls="level2"
+                                                aria-expanded="false">
+                                                <span class="mr-1"><i class="far fa-circle"></i></span>
+                                                Level One
+                                                <span class="arrow-icon-dropdown ml-auto mr-3"><i
+                                                        class="fa fa-angle-down"></i></span>
+                                            </a>
+                                            <ul class="list-unstyled m-0 collapse" id="level2"
+                                                data-parent="#multilevel-dropdown">
+                                                <li class=" menu-option">
+                                                    <a href="#" class="option-text btn-block btn-link">
+                                                        <span class=""><i class="far fa-circle"></i></span>
+                                                        Level Two
+                                                    </a>
+                                                </li>
+                                                <li class=" menu-option">
+                                                    <a href="#" class="option-text btn-block btn-link d-flex"
+                                                        data-target="#level3" data-toggle="collapse"
+                                                        aria-controls="level3" aria-expanded="false">
+                                                        <span class="mr-1"><i class="far fa-circle"></i></span>
+                                                        Level Two
+                                                        <span class="arrow-icon-dropdown ml-auto mr-3"><i
+                                                                class="fa fa-angle-down"></i></span>
+                                                    </a>
+                                                    <ul class="list-unstyled m-0 collapse" id="level3"
+                                                        data-parent="#level2" aria-labelledby="level 3">
+                                                        <li class="menu-option">
+                                                            <a href="#" class="option-text btn-block btn-link">
+                                                                <span class=""><i class="far fa-circle"></i></span>
+                                                                Level Three
+                                                            </a>
+                                                        </li>
+                                                        <li class="menu-option">
+                                                            <a href="#" class="option-text btn-block btn-link">
+                                                                <span class=""><i class="far fa-circle"></i></span>
+                                                                Level Three
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-item menu-option">
+                                            <a href="#" class="option-text btn-block btn-link">
+                                                <span><i class="far fa-circle"></i></span>
+                                                Level One
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Documentation -->
+                                <li class="tree-dropdown dropright ">
+                                    <a href="javascript:void()" class="menu-trigger" data-toggle="dropdown"
+                                        aria-expanded="false" aria-haspopup="true">
+                                        <span class="pr-2"><i class="fa fa-book"></i></span>
+                                    </a>
+                                    <ul class="dropdown-menu list-unstyled m-0">
+                                        <li class="p-0 menu-option">
+                                            <h4 class="m-0"><a href="https://adminlte.io/docs" class="dropdown-header">Documentation</a></h4>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="side-title">
+                            <p>Labels</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <!-- Important -->
+                            <li class="tree-dropdown dropright ">
+                                <a href="javascript:void()" class="menu-trigger" data-toggle="dropdown"
+                                    aria-expanded="false" aria-haspopup="true">
+                                    <span class="pr-2"><i class="far fa-circle text-danger"></i></span>
+                                </a>
+                                <ul class="dropdown-menu list-unstyled m-0">
+                                    <li class="p-0 menu-option">
+                                        <h4 class="m-0"><a href="#" class="dropdown-header">Important</a></h4>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Warning -->
+                            <li class="tree-dropdown dropright ">
+                                <a href="javascript:void()" class="menu-trigger" data-toggle="dropdown"
+                                    aria-expanded="false" aria-haspopup="true">
+                                    <span class="pr-2"><i class="far fa-circle text-warning"></i></span>
+                                </a>
+                                <ul class="dropdown-menu list-unstyled m-0">
+                                    <li class="p-0 menu-option">
+                                        <h4 class="m-0"><a href="#" class="dropdown-header">Warning</a></h4>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Information -->
+                            <li class="tree-dropdown dropright ">
+                                <a href="javascript:void()" class="menu-trigger" data-toggle="dropdown"
+                                    aria-expanded="false" aria-haspopup="true">
+                                    <span class="pr-2"><i class="far fa-circle text-primary"></i></span>
+                                </a>
+                                <ul class="dropdown-menu list-unstyled m-0">
+                                    <li class="p-0 menu-option">
+                                        <h4 class="m-0"><a href="#" class="dropdown-header">Information</a></h4>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!---->
+
+            </div>
+            <!---->
+
+            <div class="content">
+                <!--Content Body -->
+                <div class="px-3 content-body">
+                    <!-- Content Header & Breadcrumb -->
+                    <div class="content-header">
+                        <div class="row">
+                            <div class="col-lg-6 header-position">
+                                <span class="d-inline-block">
+                                    <h5 class="d-inline-block">Dashboard</h5> <small
+                                        class="text-muted d-inline-block">Version 2.0</small>
+                                </span>
+                            </div>
+                            <div class="col-lg-6 breadcrumb-position">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <span><i class="fas fa-tachometer-alt pr-2"></i></span>
+                                        <a href="../../index.html" class="text-decoration-none text-dark">Home</a>
+                                    </li>
+                                    <li class="breadcrumb-item text-muted">Dashboard</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!---->
+
+                    <!--Info Box Top-->
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="info-box-2">
+                                <span class="info-box-2-icon bg-aqua">
+                                    <span><i class="fa fa-2x fa-cog" aria-hidden="true"></i></span>
+                                </span>
+                                <div class="info-box-2-content">
+                                    <span class="info-box-2-text"><small>CPU TRAFIIC</small></span>
+                                    <span class="info-box-2-number"><b>90</b>%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="info-box-2">
+                                <span class="info-box-2-icon bg-red">
+                                    <span><i class="fab fa-2x fa-google-plus"></i></span>
+                                </span>
+                                <div class="info-box-2-content">
+                                    <span class="info-box-2-text"><small>LIKES</small></span>
+                                    <span class="info-box-2-number"><b>41,410</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="info-box-2">
+                                <span class="info-box-2-icon bg-green">
+                                    <i class="fa fa-2x fa-shopping-cart" aria-hidden="true"></i>
+                                </span>
+                                <div class="info-box-2-content">
+                                    <span class="info-box-2-text"><small>SALES</small></span>
+                                    <span class="info-box-2-number"><b>760</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="info-box-2">
+                                <span class="info-box-2-icon bg-yellow">
+                                    <i class="fas fa-2x fa-users"></i>
+                                </span>
+                                <div class="info-box-2-content">
+                                    <span class="info-box-2-text"><small>NEW MEMBERS</small></span>
+                                    <span class="info-box-2-number"><b>2,000</b></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Month Report-->
+                    <div id="month-report-box" data-dismiss="close">
+                        <div class="card-header d-flex py-2 bg-white">
+                            <p class="card-title d-inline w-50 mb-0">Monthly Recap Report</p>
+                            <ul class="list-inline button-tool d-flex w-50 mb-0 justify-content-end">
+                                <li class="list-inline-item" id="report">
+                                    <a href="" class="btn-link btn-block" data-toggle="collapse"
+                                        data-target="#monthly-report" aria-expanded="true"
+                                        aria-controls="monthly-report">
+                                        <span><i class="fas fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="dropdown">
+                                        <a href="" id="dropdown-button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <span><i class="fas fa-wrench"></i></span>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown-button">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item">Separated link</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="javascript:void()" data-interact='close'>
+                                        <span><i class="fas fa-times" aria-hidden="true"></i></span>
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card bg-white">
+                            <div id="monthly-report" class="collapse show w-100" data-parent="#report"
+                                aria-labelledby="Monthly Recap Report">
+                                <div class="row w-100 mb-4 ml-0">
+                                    <div class="col-lg-8 col-md-12">
+                                        <div class="graph position-relative">
+                                            <canvas id="graph" height="230" width="703"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 goal-progress-bar">
+                                        <p class="text-center"><strong>Goal Completion</strong></p>
+                                        <div class="progress-group mb-3">
+                                            <div class="d-flex justify-content-between">
+                                                <span class="progress-text">Add Products to Cart</span>
+                                                <span class="progress-number">
+                                                    <b>160</b>/200
+                                                </span>
+                                            </div>
+                                            <div class="progress" style="height: 10px">
+                                                <div class="progress-bar loading-bar bg-primary" role="progressbar"
+                                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="progress-group mb-3">
+                                            <div class="d-flex justify-content-between">
+                                                <span class="progress-text">Complete Purchase</span>
+                                                <span class="progress-number">
+                                                    <b>310</b>/400
+                                                </span>
+                                            </div>
+                                            <div class="progress" style="height: 10px">
+                                                <div class="progress-bar loading-bar bg-danger" role="progressbar"
+                                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="progress-group mb-3">
+                                            <div class="d-flex justify-content-between">
+                                                <span class="progress-text">Visit Premium Page</span>
+                                                <span class="progress-number">
+                                                    <b>480</b>/800
+                                                </span>
+                                            </div>
+                                            <div class="progress" style="height: 10px">
+                                                <div class="progress-bar loading-bar bg-success" role="progressbar"
+                                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="progress-group mb-3">
+                                            <div class="d-flex justify-content-between">
+                                                <span class="progress-text">Send Inquiries</span>
+                                                <span class="progress-number">
+                                                    <b>250</b>/500
+                                                </span>
+                                            </div>
+                                            <div class="progress" style="height: 10px">
+                                                <div class="progress-bar loading-bar bg-warning" role="progressbar"
+                                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row w-100 py-4 border-top">
+                                    <div class="col-3 border-right">
+                                        <div class="description-block text-center">
+                                            <span class="description-percentage text-success">
+                                                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                                                17%
+                                            </span>
+                                            <h5 class="description-header mb-0">$35,210.43</h5>
+                                            <span class="description-text">TOTAL REVENUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 border-right">
+                                        <div class="description-block text-center">
+                                            <span class="description-percentage text-warning">
+                                                <i class="fa fa-caret-left" aria-hidden="true"></i>
+                                                0%
+                                            </span>
+                                            <h5 class="description-header mb-0">$10,390.90</h5>
+                                            <span class="description-text">TOTAL COST</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 border-right">
+                                        <div class="description-block text-center">
+                                            <span class="description-percentage text-success">
+                                                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                                                20%
+                                            </span>
+                                            <h5 class="description-header mb-0">$24,813.53</h5>
+                                            <span class="description-text">TOTAL PROFIT</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="description-block text-center">
+                                            <span class="description-percentage text-danger">
+                                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                                18%
+                                            </span>
+                                            <h5 class="description-header mb-0">1200</h5>
+                                            <span class="description-text">GOAL COMPLETIONS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row w-100 mx-0 my-4">
+                        <div class="col-lg-8 col-md-12">
+                            <!--Visitor report-->
+                            <div id="visitor-report-menu" data-dismiss="close">
+                                <div class="card-header d-flex">
+                                    <p class="card-title d-inline w-50 mb-0">Visitors Report</p>
+                                    <ul class="list-inline button-tool d-flex justify-content-end w-50 mb-0">
+                                        <li class="list-inline-item" id="visitor-report">
+                                            <a href="" class="btn-link btn-block" data-toggle="collapse"
+                                                data-target="#visitor-menu" aria-expanded="true"
+                                                aria-controls="visitor-menu">
+                                                <span><i class="fas fa-minus" aria-hidden="true"></i></span>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void()" data-interact="close">
+                                                <span><i class="fas fa-times" aria-hidden="true"></i></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="collapse show" id="visitor-menu" data-parent="#visitor-report"
+                                    aria-labelledby="Visitor Report">
+                                    <div class="row w-100 no-gutters">
+                                        <div class="col-9 bg-light">
+                                            <div class="" id="world-map" style="height: 325px;">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-3 bg-success">
+                                            <div class="pad text-center text-white">
+                                                <div class="description-block margin-bottom">
+                                                    <div class="sparkbar mx-auto">
+                                                        <canvas id="visit-bar"
+                                                            style="display: inline-block;width: 34px;height: 30px;vertical-align: top;"
+                                                            width="34" height="30"></canvas>
+                                                    </div>
+                                                    <h5 class="description-header d-block mt-3 mb-0"><b>8390</b></h5>
+                                                    <span class="description-text">VISITS</span>
+                                                </div>
+                                                <div class="description-block margin-bottom">
+                                                    <div class="sparkbar mx-auto">
+                                                        <canvas id="referral-bar"
+                                                            style="display: inline-block;width: 34px;height: 30px;vertical-align: top;"
+                                                            width="34" height="30"></canvas>
+                                                    </div>
+                                                    <h5 class="description-header d-block mt-3 mb-0"><b>30%</b></h5>
+                                                    <span class="description-text">REFERRALS</span>
+                                                </div>
+                                                <div class="description-block">
+                                                    <div class="sparkbar mx-auto">
+                                                        <canvas id="organic-bar"
+                                                            style="display: inline-block;width: 34px;height: 30px;vertical-align: top;"
+                                                            width="34" height="30"></canvas>
+                                                    </div>
+                                                    <h5 class="description-header d-block mt-3 mb-0"><b>30%</b></h5>
+                                                    <span class="description-text">ORGANIC</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Direct Chat / Latest Members-->
+                            <div class="row w-100 m-0 mt-4">
+                                <!-- Direct Chat -->
+                                <div class="col-lg-6 col-md-12 mb-3 " data-dismiss="close">
+                                    <div id="direct-chat-menu">
+                                        <div class="card-header d-flex">
+                                            <p class="card-title d-inline w-50">Direct Chat</p>
+                                            <ul class="button-tool list-inline w-50 d-flex justify-content-end">
+                                                <li class="list-inline-item">
+                                                    <span class="badge badge-primary">12</span>
+                                                </li>
+                                                <li class="list-inline-item" id="chat-box">
+                                                    <a href="" class="btn-link btn-block" data-toggle="collapse"
+                                                        data-target="#chat-menu" aria-expanded="true"
+                                                        aria-controls="chat-menu">
+                                                        <i class="fas fa-minus" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="">
+                                                        <i class="fa fa-comments" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="javascript:void(0)" data-interact="close">
+                                                        <i class="fas fa-times" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div id="chat-menu" class="collapse show" data-parent="#chat-box"
+                                            aria-labelledby="Direct Chat">
+                                            <div class="direct-chat-box">
+                                                <div class="chat-message py-2">
+                                                    <div class="chat-message-header clearfix">
+                                                        <span class="chat-message-user pull-left">Shahrul Alif</span>
+                                                        <span class="chat-message-timestamp pull-right text-muted">23
+                                                            Jan
+                                                            2:00
+                                                            pm</span>
+                                                    </div>
+                                                    <div class="row w-100 m-0">
+                                                        <div class="col-2 p-0 d-flex justify-content-center">
+                                                            <img class="chat-message-img"
+                                                                src="img/gambarpelajar1.do.jpg" alt="">
+                                                        </div>
+                                                        <div class="col-10 pl-2">
+                                                            <div class="chat-bubble-right">
+                                                                Is this template really for free? That's unbelievable!
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="chat-message py-2">
+                                                    <div class="chat-message-header clearfix">
+                                                        <span class="chat-message-timestamp pull-left text-muted">23 Jan
+                                                            2:05
+                                                            pm</span>
+                                                        <span class="chat-message-user pull-right">Sarah Lane</span>
+                                                    </div>
+                                                    <div class="row w-100 m-0">
+                                                        <div class="col-10 pr-2">
+                                                            <div class="chat-bubble-left">
+                                                                You better believe it!
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-2 p-0 d-flex justify-content-center">
+                                                            <img src="img/user5-128x128.jpg" alt=""
+                                                                class="chat-message-img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="chat-message py-2">
+                                                    <div class="chat-message-header clearfix">
+                                                        <span class="chat-message-user pull-left">Shahrul Alif</span>
+                                                        <span class="chat-message-timestamp pull-right text-muted">23
+                                                            Jan
+                                                            4:04
+                                                            pm</span>
+                                                    </div>
+                                                    <div class="row w-100 m-0">
+                                                        <div class="col-2 p-0 d-flex justify-content-center">
+                                                            <img class="chat-message-img"
+                                                                src="img/gambarpelajar1.do.jpg" alt="">
+                                                        </div>
+                                                        <div class="col-10 pl-2">
+                                                            <div class="chat-bubble-right">
+                                                                Working with AdminLTE on a great new app! Wanna join?
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="chat-message py-2">
+                                                    <div class="chat-message-header clearfix">
+                                                        <span class="chat-message-timestamp pull-left text-muted">23 Jan
+                                                            5:34
+                                                            pm</span>
+                                                        <span class="chat-message-user pull-right">Sarah Lane</span>
+                                                    </div>
+                                                    <div class="row w-100 m-0">
+                                                        <div class="col-10 pr-2">
+                                                            <div class="chat-bubble-left">
+                                                                I would love to.
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-2 p-0 d-flex justify-content-center">
+                                                            <img src="img/user5-128x128.jpg" alt=""
+                                                                class="chat-message-img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box-footer">
+                                                <form class="form-inline" action="">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Type Message ...">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Send</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Latest Members -->
+                                <div class="col-lg-6 col-md-12 mb-3" data-dismiss="close">
+                                    <div id="latest-member-menu">
+                                        <div class="card-header d-flex">
+                                            <p class="card-title d-inline w-50">Latest Members</p>
+                                            <ul class="button-tool list-inline w-50 d-flex justify-content-end ">
+                                                <li class="list-inline-item">
+                                                    <small><span class="badge badge-danger p-1">8 New
+                                                            members</span></small>
+                                                </li>
+                                                <li class="list-inline-item" id="member-list">
+                                                    <a href="" class="btn-block btn-link" data-toggle="collapse"
+                                                        data-target="#member-menu" aria-expanded="true"
+                                                        aria-controls="member-menu">
+                                                        <span><i class="fas fa-minus"></i></span>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="javascript:void(0)" data-interact="close"><i class="fas fa-times" aria-hidden="true"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="collapse show" id="member-menu" data-parent="#member-list"
+                                            aria-labelledby="Member List">
+                                            <div class="member-list-box">
+                                                <ul class="user-list list-unstyled overflow-hidden clearfix mb-0">
+                                                    <li>
+                                                        <img src="img/gambarpelajar1.do.jpg" class="user-list-img"
+                                                            alt="">
+                                                        <a href="" class="user-list-name"><span>Alexander
+                                                                Bell</span></a>
+                                                        <span
+                                                            class="user-list-date text-muted"><small>Today</small></span>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user1-128x128.jpg" class="user-list-img" alt="">
+                                                        <a href="" class="user-list-name"><span>Norman</span></a>
+                                                        <span class="user-list-date text-muted"><small>Yesterday</small>
+                                                            </<i>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user3-128x128.jpg" class="user-list-img" alt="">
+                                                        <a href="" class="user-list-name"><span>Jane</span></a>
+                                                        <span class="user-list-date text-muted"><small>12
+                                                                Jan</small></span>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user8-128x128.jpg" class="user-list-img" alt="">
+                                                        <a href="" class="user-list-name"><span>John</span></a>
+                                                        <span class="user-list-date text-muted"><small>12
+                                                                Jan</small></span>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user6-128x128.jpg" class="user-list-img" alt="">
+                                                        <a href="" class="user-list-name"><span>Alexander</span></a>
+                                                        <span class="user-list-date text-muted"><small>13
+                                                                Jan</small></span>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user5-128x128.jpg" class="user-list-img" alt="">
+                                                        <a href="" class="user-list-name"><span>Sarah</span></a>
+                                                        <span class="user-list-date text-muted"><small>14
+                                                                Jan</small></span>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user4-128x128.jpg" class="user-list-img" alt="">
+                                                        <a href="" class="user-list-name"><span>Nora</span></a>
+                                                        <span class="user-list-date text-muted"><small>15
+                                                                Jan</small></span>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/photo3.jpg" class="user-list-img" alt="">
+                                                        <a href="" class="user-list-name"><span>Nadia</span></a>
+                                                        <span class="user-list-date text-muted"><small>15
+                                                                Jan</small></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="box-footer text-center">
+                                                <a href="" class="btn-link " role="button">View All Users</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Latest Order Menu-->
+                            <div class="row mt-4 mx-0">
+                                <div class="col-12 p-0">
+                                    <div id="latest-order" data-dismiss="close">
+                                        <div class="card-header d-flex">
+                                            <p class="card-title w-50">Latest Orders</p>
+                                            <ul class="list-inline button-tool w-50 d-flex justify-content-end">
+                                                <li class="list-inline-item" id="order-list">
+                                                    <a href="" class="btn-link btn-block" data-toggle="collapse"
+                                                        data-target="#order-menu" aria-expanded="true"
+                                                        aria-controls="#order-menu">
+                                                        <span><i class="fas fa-minus" aria-hidden="true"></i></span>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="javascript:void(0)" data-interact="close">
+                                                        <i class="fas fa-times" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="collapse show" id="order-menu" data-parent="#order-list"
+                                            aria-labelledby="Order List">
+                                            <table class="table order-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="col order-col">Order ID</th>
+                                                        <th class="col item-col">Item</th>
+                                                        <th class="col status-col">Status</th>
+                                                        <th class="col popularity-col">Popularity</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><a href="">OR9842</a></td>
+                                                        <td>Call of Duty IV</td>
+                                                        <td><span class="badge badge-success">Shipped</span></td>
+                                                        <td>
+                                                            <div class="order-chart">
+                                                                <canvas id="cod" width="34" height="20"></canvas>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="">OR1848</a></td>
+                                                        <td>Samsung Smart TV</td>
+                                                        <td><span class="badge badge-warning">Pending</span></td>
+                                                        <td>
+                                                            <div class="order-chart">
+                                                                <canvas id="tv" width="34" height="20"></canvas>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="">OR7429</a></td>
+                                                        <td>Iphone 6 Plus</td>
+                                                        <td><span class="badge badge-danger">Delivered</span></td>
+                                                        <td>
+                                                            <div class="order-chart">
+                                                                <canvas id="iphone1" width="34" height="20"></canvas>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="">OR7429</a></td>
+                                                        <td>Samsung Smart TV</td>
+                                                        <td><span class="badge badge-primary">Processing</span></td>
+                                                        <td>
+                                                            <div class="order-chart">
+                                                                <canvas id="tv2" width="34" height="20"></canvas>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="">OR1848</a></td>
+                                                        <td>Samsung Smart TV</td>
+                                                        <td><span class="badge badge-warning">Pending</span></td>
+                                                        <td>
+                                                            <div class="order-chart">
+                                                                <canvas id="tv3" width="34" height="20"></canvas>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="">OR7429</a></td>
+                                                        <td>Iphone 6 Plus</td>
+                                                        <td><span class="badge badge-danger">Delivered</span></td>
+                                                        <td>
+                                                            <div class="order-chart">
+                                                                <canvas id="iphone2" width="34" height="20"></canvas>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="">OR9842</a></td>
+                                                        <td>Call of Duty IV</td>
+                                                        <td><span class="badge badge-success">Shipped</span></td>
+                                                        <td>
+                                                            <div class="order-chart">
+                                                                <canvas id="cod2" width="34" height="20"></canvas>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr>
+                                                        <td colspan="5">
+                                                            <div class="table-foot d-flex justify-content-between">
+                                                                <button class="btn order-button btn-info">Place New
+                                                                    Order</button>
+                                                                <button class="btn view-order btn-dark">View All
+                                                                    Orders</button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <!--Info Right Box-->
+                            <div class="info-box-2 bg-yellow">
+                                <span class="info-box-2-icon">
+                                    <span><i class="fa fa-2x fa-tag" aria-hidden="true"></i></span>
+                                </span>
+                                <div class="info-box-2-content text-white bg-yellow">
+                                    <span class="info-box-2-text"><small>INVENTORY</small></span>
+                                    <span class="info-box-2-number"><b>5,200</b></span>
+                                    <div class="progress-box-info">
+                                        <div class="progress mid-progress-info">
+                                            <div class="progress-bar inventory-bar" role="progressbar"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>50% Increase in 30
+                                        Days</small>
+                                </div>
+                            </div>
+                            <div class="info-box-2 bg-green">
+                                <span class="info-box-2-icon">
+                                    <span><i class="far fa-2x fa-heart" aria-hidden="true"></i></span>
+                                </span>
+                                <div class="info-box-2-content bg-green text-white">
+                                    <span class="info-box-2-text"><small>MENTIONS</small></span>
+                                    <span class="info-box-2-number"><b>92,050</b></span>
+                                    <div class="progress-box-info">
+                                        <div class="progress mid-progress-info">
+                                            <div class="progress-bar mention-bar" role="progressbar" aria-valuenow="40"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>20% Increase in 30
+                                        Days</small>
+                                </div>
+                            </div>
+                            <div class="info-box-2 bg-red">
+                                <span class="info-box-2-icon">
+                                    <span><i class="fas fa-2x fa-cloud-download-alt" aria-hidden="true"></i></span>
+                                </span>
+                                <div class="info-box-2-content bg-red text-white">
+                                    <span class="info-box-2-text"><small>DOWNLOADS</small></span>
+                                    <span class="info-box-2-number"><b>114,381</b></span>
+                                    <div class="progress-box-info">
+                                        <div class="progress mid-progress-info">
+                                            <div class="progress-bar download-bar" role="progressbar" aria-valuenow="40"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>70% Increase in 30
+                                        Days</small>
+                                </div>
+                            </div>
+                            <div class="info-box-2 bg-aqua">
+                                <span class="info-box-2-icon">
+                                    <span><i class="fa fa-2x fa-tag" aria-hidden="true"></i></span>
+                                </span>
+                                <div class="info-box-2-content bg-aqua text-white">
+                                    <span class="info-box-2-text"><small>DIRECT MESSAGES</small></span>
+                                    <span class="info-box-2-number"><b>163,921</b></span>
+                                    <div class="progress-box-info">
+                                        <div class="progress mid-progress-info">
+                                            <div class="progress-bar message-bar" role="progressbar" aria-valuenow="40"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <small>40% Increase in 30
+                                        Days</small>
+                                </div>
+                            </div>
+                            <!--Browser Usage-->
+                            <div class="row w-100 m-0">
+                                <div class="col-12 p-0">
+                                    <div id="browser-menu" data-dismiss="close">
+                                        <div class="card-header d-flex">
+                                            <p class="card-title w-75">Browser Usage</p>
+                                            <ul class="list-inline button-tool w-25 d-flex justify-content-end">
+                                                <li class="list-inline-item" id="browser-usage">
+                                                    <a href="" class="btn-link btn-block" data-toggle="collapse"
+                                                        data-target="#browser-usage-menu" aria-expanded="true"
+                                                        aria-controls="browser-usage-menu">
+                                                        <span><i class="fas fa-minus" aria-hidden="true"></i></span>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="javascript:void(0)" data-interact="close">
+                                                        <span><i class="fas fa-times" aria-hidden="true"></i></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="collapse show" id="browser-usage-menu" data-parent="#browser-usage"
+                                            aria-labelledby="Browser Usage">
+                                            <div class="row no-gutters pt-3">
+                                                <div class="col-8">
+                                                    <canvas id="browser-chart" height="155" width="205"></canvas>
+                                                </div>
+                                                <div class="col-4">
+                                                    <ul class="list-unstyled browser-list">
+                                                        <li>
+                                                            <span>
+                                                                <i class="far fa-circle text-danger"
+                                                                    aria-hidden="true"></i>
+                                                                <span>Chrome</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span>
+                                                                <i class="far fa-circle text-success"
+                                                                    aria-hidden="true"></i>
+                                                                <span>IE</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span>
+                                                                <i class="far fa-circle text-warning"
+                                                                    aria-hidden="true"></i>
+                                                                <span>Firefox</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span>
+                                                                <i class="far fa-circle text-info"
+                                                                    aria-hidden="true"></i>
+                                                                <span>Safari</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span>
+                                                                <i class="far fa-circle text-primary"
+                                                                    aria-hidden="true"></i>
+                                                                <span>Opera</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span>
+                                                                <i class="far fa-circle text-light"
+                                                                    aria-hidden="true"></i>
+                                                                <span>Navigator</span>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <ul class="list-unstyled browser-menu-info m-0 pt-2 clearfix">
+                                                    <li>
+                                                        <a href="" class="browser-menu-trigger btn-block btn-link">
+                                                            <span>United State of America</span>
+                                                            <span class="pull-right text-danger">
+                                                                <i class="fa fa-angle-down"></i>
+                                                                12%
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="" class="browser-menu-trigger btn-block btn-link">
+                                                            <span>India</span>
+                                                            <span class="pull-right text-success">
+                                                                <i class="fa fa-angle-up"></i>
+                                                                4%
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="" class="browser-menu-trigger btn-block btn-link">
+                                                            <span>China</span>
+                                                            <span class="pull-right text-warning">
+                                                                <i class="fa fa-angle-left"></i>
+                                                                0%
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Recently Added Product-->
+                            <div class="row w-100 m-0 pt-3">
+                                <div class="col-12 px-0">
+                                    <div id="recently-added-menu" data-dismiss="close">
+                                        <div class="card-header d-flex">
+                                            <p class="card-title w-75">Recently Added Product</p>
+                                            <ul class="list-inline button-tool w-25 d-flex justify-content-end">
+                                                <li class="list-inline-item" id="added-item">
+                                                    <a href="" class="btn-link btn-block" data-toggle="collapse"
+                                                        data-target="#added-item-menu" aria-expanded="true"
+                                                        aria-controls="added-item-menu">
+                                                        <span><i class="fas fa-minus" aria-hidden="true"></i></span>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="javascript:void(0)" data-interact="close">
+                                                        <span><i class="fas fa-times" aria-hidden="true"></i></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="collapse show" id="added-item-menu" data-parent="#added-item"
+                                            aria-labelledby="Recently Added Item">
+                                            <div class="added-item">
+                                                <div class="card border-left-0 border-right-0">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="img-wrapper">
+                                                                <img class="product-img"
+                                                                    src="img/close-up-of-red-object-over-white-background-335257.jpg"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-10">
+                                                            <div class="product-info">
+                                                                <a href="" class="d-inline-block"><b>Samsung TV</b></a>
+                                                                <span
+                                                                    class="badge badge-warning d-inline-block pull-right">$1800</span>
+                                                                <p class="text-muted product-description">Samsung 32"
+                                                                    1080p
+                                                                    60Hz
+                                                                    LED Smart HDTV.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card border-left-0 border-right-0">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="img-wrapper">
+                                                                <img class="product-img"
+                                                                    src="img/close-up-of-red-object-over-white-background-335257.jpg"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-10">
+                                                            <div class="product-info">
+                                                                <a href="" class="d-inline-block"><b>Bicycle</b></a>
+                                                                <span
+                                                                    class="badge badge-info d-inline-block pull-right">$700</span>
+                                                                <p class="text-muted product-description">26" Mongoose
+                                                                    Dolomite
+                                                                    Men's 7-speed, Navy Blue</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card border-left-0 border-right-0">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="img-wrapper">
+                                                                <img class="product-img"
+                                                                    src="img/close-up-of-red-object-over-white-background-335257.jpg"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-10">
+                                                            <div class="product-info">
+                                                                <a href="" class="d-inline-block"><b>Xbox One</b></a>
+                                                                <span
+                                                                    class="badge badge-danger d-inline-block pull-right">$350</span>
+                                                                <p class="text-muted product-description">Xbox One
+                                                                    Console
+                                                                    Bundle with Halo Master Chief Collection.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card border-left-0 border-right-0">
+                                                    <div class="row">
+                                                        <div class="col-2">
+                                                            <div class="img-wrapper">
+                                                                <img class="product-img"
+                                                                    src="img/close-up-of-red-object-over-white-background-335257.jpg"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-10">
+                                                            <div class="product-info">
+                                                                <a href="" class="d-inline-block"><b>Playstation
+                                                                        4</b></a>
+                                                                <span
+                                                                    class="badge badge-success d-inline-block pull-right">$399</span>
+                                                                <p class="text-muted product-description">PlayStation 4
+                                                                    500GB
+                                                                    Console (PS4)</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-footer text-center p-2 bg-white">
+                                                <a href="javascript:void(0)" class="btn-link btn-block">View All
+                                                    Product</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+
+                <!-- Footer -->
+                <footer id="footer">
+                    <span id="left-text">Copyright<span>&copy;</span> 2014-2019 <a href="" class="text-primary">AdminLTE
+                            Duplicated</a></span>. <span id="copyright-text">All rights reserved.</span>
+                    <span class="pull-right" id="right-text"><b>Version</b> 2.4.13</span>
+                </footer>
+                <!---->
+
+                <!-- Setting Sidebar -->
+                <aside id="setting-sidebar" class="delete">
+                    <ul class="nav nav-pills justify-content-center p-3" id="sidebar-right" role="tablist">
+                        <li class="nav-item">
+                            <a href="#wrench-content" class="nav-link active" id="wrench-tab" role="tab"
+                                data-toggle="tab" aria-selected="true" aria-controls="wrench-content">
+                                <i class="fas fa-wrench"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#home-content" class="nav-link" id="home-tab" role="tab" data-toggle="tab"
+                                aria-selected="false" aria-controls="home-content">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gear-content" class="nav-link" id="gear-tab" role="tab" data-toggle="tab"
+                                aria-selected="false" aria-controls="gear-content">
+                                <i class="fa fa-cog"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Setting Sidebar Content -->
+                    <div class="tab-content">
+                        <div id="wrench-content" class="tab-pane fade show active" role="tabpanel"
+                            aria-labelledby="wrench-tab">
+                            <h6 class="sub-heading-font mb-4"><b>Layout Options</b></h6>
+                            <!-- Fixed Checkbox -->
+                            <div class="form-group clearfix">
+                                <label for="fixed-checkbox" class="control-sidebar-heading">
+                                    <input name="" id="fixed-checkbox" type="checkbox" class="pull-right">
+                                    Fixed Layout
+                                </label>
+                                <p class="control-sidebar-p-tag">Activate the fixed layout. You can't use fixed and
+                                    boxed
+                                    layouts together.</p>
+                            </div>
+                            <!---->
+
+                            <!-- Boxed Layout -->
+                            <div class="form-group clearfix">
+                                <label for="boxed-layout" class="control-sidebar-heading">
+                                    <input type="checkbox" id="boxed-layout" class="pull-right">
+                                    Boxed Layout
+                                </label>
+                                <p class="control-sidebar-p-tag">Activate the boxed layout</p>
+                            </div>
+                            <!---->
+
+                            <!-- Left Sidebar Toggle -->
+                            <div class="form-group clearfix">
+                                <label for="left-sidebar-checkbox" class="control-sidebar-heading">
+                                    <input type="checkbox" id="left-sidebar-checkbox" class="pull-right">
+                                    Toggle Sidebar
+                                </label>
+                                <p class="control-sidebar-p-tag">Toggle the left sidebar's state (open or close)</p>
+                            </div>
+                            <!---->
+
+                            <!-- Sidebar Expand on Hover -->
+                            <div class="form-group clearfix">
+                                <label for="hover-checkbox" class="control-sidebar-heading">
+                                    <input type="checkbox" id="hover-checkbox" class="pull-right">
+                                    Sidebar Expand on Hover
+                                </label>
+                                <p class="control-sidebar-p-tag">Let the sidebar mini expand on hover</p>
+                            </div>
+                            <!---->
+
+                            <!-- Right Sidebar Slide -->
+                            <div class="form-group clearfix">
+                                <label for="right-slide-checkbox" class="control-sidebar-heading">
+                                    <input type="checkbox" id="right-slide-checkbox" class="pull-right">
+                                    Toggle Right Sidebar Slide
+                                </label>
+                                <p class="control-sidebar-p-tag">Toggle between slide over content and push content
+                                    effects
+                                </p>
+                            </div>
+                            <!---->
+
+                            <!-- Right sidebar skin -->
+                            <div class="form-group clearfix">
+                                <label for="right-sidebar-skin" class="control-sidebar-heading">
+                                    <input type="checkbox" id="right-sidebar-skin" class="pull-right">
+                                    Toggle Right Sidebar Skin
+                                </label>
+                                <p class="control-sidebar-p-tag">Toggle between dark and light skins for the right
+                                    sidebar
+                                </p>
+                            </div>
+                            <!---->
+
+                            <h5 class="sub-heading-font">Skins</h5>
+                            <ul class="list-unstyled clearfix skin-font">
+                                <!-- Blue -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="blue-skin" class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(54, 127, 169, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #367fa9"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: #222"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Blue</small></p>
+                                </li>
+                                <!-- Black -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="black-skin" class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: #fefefe"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #fefefe"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: #222"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Black</small></p>
+                                </li>
+                                <!-- Purple -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="purple-skin" class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(96, 92, 168, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #605CA8"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: #222"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Purple</small></p>
+                                </li>
+                                <!-- Green -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="green-skin" class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(0, 166, 90, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #00A65A"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: #222"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Green</small></p>
+                                </li>
+                                <!-- Red -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="red-skin" class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(221, 75, 57, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #DD4B39"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: #222"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Red</small></p>
+                                </li>
+                                <!-- Yellow -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="yellow-skin" class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(243, 156, 18, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #F39C12"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: #222"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Yellow</small></p>
+                                </li>
+                                <!-- Blue Light -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="blue-light-skin"
+                                        class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(54, 127, 169, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #367fa9"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: #f4f5f7"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Blue Light</small></p>
+                                </li>
+                                <!-- Black Light -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="black-light-skin"
+                                        class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: white"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: white"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: white"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Black Light</small></p>
+                                </li>
+                                <!-- Purple Light -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="purple-light-skin"
+                                        class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(96, 92, 168, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #605CA8"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: white"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Purple Light</small></p>
+                                </li>
+                                <!-- Green Light -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="green-light-skin"
+                                        class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(0, 166, 90, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #00A65A"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: white"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Green Light</small></p>
+                                </li>
+                                <!-- Red Light -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="red-light-skin" class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(221, 75, 57, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #DD4B39"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: white"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Red Light</small></p>
+                                </li>
+                                <!-- Yellow Light -->
+                                <li class="pull-left" style="width: 33.333333%; padding: 5px;">
+                                    <a href="javascript:void(0)" id="yellow-light-skin"
+                                        class="clearfix full-opacity-hover"
+                                        style="display: block; box-shadow: 0 0 3px rgba(0,0,0,0.4)">
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 7px; background: rgba(243, 156, 18, 0.7)"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 7px; background: #F39C12"></span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span
+                                                style="display:block; width: 20%; float: left; height: 20px; background: white"></span>
+                                            <span
+                                                style="display:block; width: 80%; float: left; height: 20px; background: #f4f5f7"></span>
+                                        </div>
+                                    </a>
+                                    <p class="m-0 text-center"><small>Yellow Light</small></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="home-content" class="tab-pane fade" role="tabpanel">
+                            <h6 class="sub-heading-font m-4">Recently Activity</h6>
+                            <ul class="home-content-menu p-0 list-unstyled">
+                                <li class="home-menu-option">
+                                    <a href="" class="clearfix ">
+                                        <i class="menu-icon fas fa-birthday-cake pull-left bg-red"></i>
+                                        <div class="menu-info ml-5">
+                                            <h6 class=" menu-info-h6">Langdon's Birthday</h6>
+                                            <p class="menu-info-p "><small>Will be 23 on April 24ths</small></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="home-menu-option">
+                                    <a href="" class="clearfix ">
+                                        <i class="menu-icon fas fa-user pull-left bg-yellow"></i>
+                                        <div class="menu-info ml-5">
+                                            <h6 class=" menu-info-h6">Frodo Updated His Profile</h6>
+                                            <p class="menu-info-p "><small>New phone +1(800)555-1234</small></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="home-menu-option">
+                                    <a href="" class="clearfix ">
+                                        <i class="menu-icon fa fa-envelope pull-left bg-aqua"></i>
+                                        <div class="menu-info ml-5">
+                                            <h6 class=" menu-info-h6">Nora Joined Mailing List</h6>
+                                            <p class="menu-info-p "><small>nora@example.com</small></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="home-menu-option">
+                                    <a href="" class="clearfix ">
+                                        <i class="menu-icon far fa-file-code pull-left bg-green"></i>
+                                        <div class="menu-info ml-5">
+                                            <h6 class=" menu-info-h6">Cron Job 254 Executed</h6>
+                                            <p class="menu-info-p "><small>Execution time 5 seconds</small></p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <h6 class="control-sidebar-heading m-4">Tasks Progress</h6>
+                            <ul class="home-content-menu p-0 list-unstyled">
+                                <li class="home-menu-option">
+                                    <a href="" class="clearfix ">
+                                        <p class="menu-info-loadbar clearfix">
+                                            Custom Template Design
+                                            <span class="badge task-badge badge-danger pull-right">70%</span>
+                                        </p>
+                                        <div class="progress" style="height: 3px;">
+                                            <div class="progress-bar bg-red" style="width: 70%" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class="home-menu-option">
+                                    <a href="" class="clearfix">
+                                        <p class="menu-info-loadbar clearfix">
+                                            Update Resume
+                                            <span class="badge task-badge badge-success pull-right">95%</span>
+                                        </p>
+                                        <div class="progress" style="height: 3px;">
+                                            <div class="progress-bar bg-green" style="width: 95%" aria-valuenow="95"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class="home-menu-option">
+                                    <a href="" class="clearfix ">
+                                        <p class="menu-info-loadbar clearfix">
+                                            Laravel Integration
+                                            <span class="badge task-badge badge-warning pull-right">50%</span>
+                                        </p>
+                                        <div class="progress" style="height: 3px;">
+                                            <div class="progress-bar bg-yellow" style="width: 50%" aria-valuenow="50"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li class="home-menu-option">
+                                    <a href="" class="clearfix ">
+                                        <p class="menu-info-loadbar clearfix">
+                                            Custom Template Design
+                                            <span class="badge task-badge badge-primary pull-right">68%</span>
+                                        </p>
+                                        <div class="progress" style="height: 3px;">
+                                            <div class="progress-bar bg-aqua" style="width: 68%" aria-valuenow="68"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="gear-content" class="tab-pane fade" role="tabpanel">
+                            <h6 class="control-sidebar-heading">General Settings</h4>
+                                <!-- Report panel usage -->
+                                <div class="form-group clearfix">
+                                    <label for="panel-usage-checkbox" class="control-sidebar-heading">
+                                        <input name="" id="panel-usage-checkbox" type="checkbox" class="pull-right"
+                                            checked>
+                                        Report panel usage
+                                    </label>
+                                    <p class="control-sidebar-p-tag">Some information about this general settings option
+                                    </p>
+                                </div>
+
+                                <!-- Allow mail redirect -->
+                                <div class="form-group clearfix">
+                                    <label for="mail-redirect-checkbox" class="control-sidebar-heading">
+                                        <input name="" id="mail-redirect-checkbox" type="checkbox" class="pull-right"
+                                            checked>
+                                        Allow mail redirect
+                                    </label>
+                                    <p class="control-sidebar-p-tag">Other sets of options are available</p>
+                                </div>
+
+                                <!--Expose author name in post -->
+                                <div class="form-group clearfix">
+                                    <label for="expose-author-checkbox" class="control-sidebar-heading">
+                                        <input name="" id="expose-author-checkbox" type="checkbox" class="pull-right"
+                                            checked>
+                                        Expose author name in posts
+                                    </label>
+                                    <p class="control-sidebar-p-tag">Allow the user to show his name in blog posts</p>
+                                </div>
+
+                                <!--Show me as online-->
+                                <div class="form-group clearfix">
+                                    <label for="show-online-checkbox" class="control-sidebar-heading">
+                                        <input name="" id="show-online-checkbox" type="checkbox" class="pull-right"
+                                            checked>
+                                        Show me as online
+                                    </label>
+                                </div>
+
+                                <!--Turn off notifications -->
+                                <div class="form-group clearfix">
+                                    <label for="off-notify-checkbox" class="control-sidebar-heading">
+                                        <input name="" id="off-notify-checkbox" type="checkbox" class="pull-right">
+                                        Turn off notifications
+                                    </label>
+                                </div>
+
+                                <!-- Delete chat history -->
+                                <div class="form-group clearfix">
+                                    <label for="delete-chat-checkbox" class="control-sidebar-heading">
+                                        <input name="" id="delete-chat-checkbox" type="checkbox" class="pull-right">
+                                        Delete chat history
+                                    </label>
+                                </div>
+                        </div>
+                    </div>
+                </aside>
+                <!---->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Jquery 3.3.1 -->
+<script src="js/jquery-3.3.1.js"></script>
+<!-- PopperJS -->
+<script src="plugin/popper-core-master/src/popper.js"></script>
+<!-- Bootstrap  -->
+<script src="plugin/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+<!-- Chart script -->
+<script src="graph/canvas2.js"></script>
+<!-- JvectorJS -->
+<script src="js/jquery-jvectormap-2.0.3.min.js"></script>
+<!-- Jvector World -->
+<script src="js/jquery-jvectormap-world-mill.js"></script>
+<!-- Sidebar Interaction -->
+<script src="sidebar&header.js"></script>
+<!-- Script -->
+<script src="pages/js/pages/dashboard/dashboard2.js"></script>
+</body>
+
+</html>

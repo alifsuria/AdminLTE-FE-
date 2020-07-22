@@ -1,0 +1,4 @@
+alternate use of d-flex and justify-content-end/justify-content-start
+to make it like justify content between
+
+use float
